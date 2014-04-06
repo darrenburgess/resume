@@ -3,12 +3,12 @@ body {
 	font-family: Arial;
 }
 
-#page-wrap { 
-	width: 800px; 
+#page-wrap  {
+	width: 800px;
 	margin: 80px auto 60px;
 	padding: 20px 20px;
 	box-shadow: 0px 0px 20px #888;
-}
+}		
 
 #name {
 	font-family: Arial;
@@ -21,11 +21,33 @@ body {
 	margin-bottom: 20px;
 	border-radius: 100%;
 	border: 2px solid darkblue;
+	box-shadow: 0 0 20px #888;
+}
+
+ul.socialNav {
+	list-style: none;
+	width: 600px;
+	margin: auto;
+	padding: 0;
+}
+
+li.socialNav {
+	height: 35px;
+	width: 35px;
+	margin-right: 25px;
+	display: inline;
 }
 
 .social-link {
 	height: 35px;
 	width: 35px;
+	border-radius: 100%;
+	box-shadow: 0 0 20px #888;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 0px;
 }
 
 h1 {
