@@ -1,67 +1,92 @@
 body {
-	background-color: lightblue;
+	background-color: #3AA6D0;
 	font-family: Arial;
+	color: #226078;
 }
 
 #page-wrap  {
 	width: 800px;
 	margin: 80px auto 60px;
 	padding: 30px;
-	box-shadow: 0px 0px 20px #888;
+	background-color: #62B1D0;
+	box-shadow: 0px 0px 20px #024C68;
 }	
 
 #name {
-	font-family: Arial;
-	border-bottom: 2px solid darkblue;
+	border-bottom: 2px solid #024C68;
+}
+
+.float-right {
+	float: right;
 }
 
 #headshot {
-	float: right;
 	margin-right: 40px;
 	margin-bottom: 20px;
 	border-radius: 100%;
-	border: 2px solid darkblue;
-	box-shadow: 0 0 20px #888;
+	border: 2px solid #024C68;
+	box-shadow: 0 0 20px #024C68;
 }
 
-ul.socialNav {
+/* combine these into one */
+.socialNav {
 	list-style: none;
 	width: 600px;
 	margin: auto;
 	padding: 0;
 }
 
-li.socialNav {
+.socialNav li {
 	height: 35px;
 	width: 35px;
 	margin-right: 25px;
-	display: inline;
+	display: inline-block;
 }
 
 .social-link {
 	height: 35px;
 	width: 35px;
 	border-radius: 100%;
-	box-shadow: 0 0 20px #888;
+	box-shadow: 0 0 20px #024C68;
+}
+
+.social-link:hover {
+	background-color: #226078;
 }
 
 h1 {
 	font-size: 30px;
+	color: #024C68;
 	margin-bottom: 0px;
 }
 
 ul li {
 	list-style: none;
 	margin-bottom: 10px;
-	text-indent: -20px;
+}
+
+.duties {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin-right: 20px;
+	padding: 10px;
+	text-align: justify;
+	overflow: scroll;
 }
 
 .job-type {
 	text-transform: uppercase;
 	display: block;
  	font-weight: bold;
- 	color: darkblue;
+ 	text-align: left;
+ 	color: #024C68;
 }
+
+
+
+
+
 
 
 
